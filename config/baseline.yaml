@@ -1,0 +1,43 @@
+
+[model]
+
+variables = DSD
+N0_range_low = 0
+N0_range_high = 4
+loc_range_low = -1.0
+loc_range_high = 1.0
+log_scale_correction_range_low = -0.05
+log_scale_correction_range_high = 0.05
+architecture = linear
+z_dim = 800
+log_sysnoise = 0
+log_obsnoise_ZH = -1
+log_obsnoise_Zdr = -4
+log_obsnoise_PhiDP = -2
+block_step = 1
+aux_alpha = 1e5
+lr = 3e-3
+time_sequence_length = 1
+G_val = 1.0
+batch_size = 64
+take_physical_loss = True
+jump_step_loss_setting = pattern1
+variable_kernelsize = False
+kernel = 5
+lr_10percent_iters = 1000000
+
+[data]
+dt = 0.03
+N_data = 5120512
+data = complete
+obsnoise = 1.0
+train_data_seed = 10
+test_data_seed = 1100000
+n_step = 80
+m_step = 20
+n_step_test = 80
+m_step_test = 20
+elevation_angles = 4_6
+
+[others]
+outdir = work
