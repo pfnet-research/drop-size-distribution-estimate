@@ -10,5 +10,7 @@ This directory contains Python code for estimating drop size distributions. The 
 - {path_to_datetime_dir}/202106_datetime_Kumagaya.txt
 - url_opener.py
 
-In addition to these, a python code for creating lookup tables for radar observables assuming lognormal distribution:
+In addition to DSD estiamtion code, thid direcoty contains a python code for creating lookup tables for radar observables assuming lognormal distribution:
 computation_lognormal_with_elevation.py
+
+disdrodb_work directory stoores the analysis codes (ipynbs) for disdrodb (https://disdrodb.readthedocs.io/en/latest/).
