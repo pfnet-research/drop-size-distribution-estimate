@@ -13,4 +13,5 @@ This directory contains Python code for estimating drop size distributions. The 
 In addition to DSD estiamtion code, thid direcoty contains a python code for creating lookup tables for radar observables assuming lognormal distribution:
 computation_lognormal_with_elevation.py
 
-disdrodb_work directory stoores the analysis codes (ipynbs) for disdrodb (https://disdrodb.readthedocs.io/en/latest/).
+disdrodb_work directory stores the analysis codes (ipynbs) for disdrodb (https://disdrodb.readthedocs.io/en/latest/).
+analysis directory stores the analysis routines (ipynbs) used for DSD estimate.
