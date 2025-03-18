@@ -9,3 +9,6 @@ This directory contains Python code for estimating drop size distributions. The 
 - {path_to_datetime_dir}/202206_datetime_10MB.txt
 - {path_to_datetime_dir}/202106_datetime_Kumagaya.txt
 - url_opener.py
+
+In addition to these, a python code for creating lookup tables for radar observables assuming lognormal distribution:
+computation_lognormal_with_elevation.py
