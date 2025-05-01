@@ -15,3 +15,8 @@ computation_lognormal_with_elevation.py
 
 disdrodb_work directory stores the analysis codes (ipynbs) for disdrodb (https://disdrodb.readthedocs.io/en/latest/).
 analysis directory stores the analysis routines (ipynbs) used for DSD estimate.
+
+
+## Acknowledgement
+
+This research work was financially supported by the Ministry of Internal Affairs and Communications of Japan with a scheme of  "Research and development of advanced technologies for a user-adaptive remote sensing data platform" (JPMI00316).
